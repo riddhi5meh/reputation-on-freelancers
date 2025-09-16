@@ -1,0 +1,18 @@
+[package]
+name = "reputation_for_freelancers"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0xe6d992c5d79a68fd37927697890d51b5567af2d9ebf526396368b8d51b014fab"
+
+
+[dev-addresses]
+
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
